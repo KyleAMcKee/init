@@ -1,0 +1,7 @@
+apt-get update && apt-get upgrade >> /var/log/update_script.log
+
+# cp 02 /etc/cron.weekly/upgrade.sh
+
+# echo "0 4 * * 0 sh /etc/cron.weekly/update.sh" | crontab
+
+# crontab -l to see current cronjobs 

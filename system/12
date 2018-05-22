@@ -1,0 +1,3 @@
+du -sh /var/*
+
+#-h human readable -s summary of disk usage

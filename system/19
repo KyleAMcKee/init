@@ -1,0 +1,3 @@
+iptables -A INPUT -j REJECT
+
+# -A appends, -j jumps to specified target (REJECT)
